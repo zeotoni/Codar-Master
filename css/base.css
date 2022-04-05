@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.botao {
+    background-color: #D6000D;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 1px solid #D6000D;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.depoimento__cartao {
+    width: 500px;
+    height: 100px;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+}
