@@ -6,6 +6,12 @@
 
     .cabecalho__menu {
         padding-top: 2rem;
+        justify-content: space-between;
+        /* margin: 0 2rem; */
+    }
+
+    .cabecalho__menu-item a {
+        margin-right: 0;
     }
 
     .botao__login {
@@ -72,6 +78,7 @@
 
     .input__secao {
         text-align: center;
+        padding-bottom: 3rem;
     }
 
     .input__title {
@@ -93,13 +100,14 @@
     .depoimentos {
         display: block;
         width: 100vw;
-        padding: 3rem 1rem 0 1rem;
+        padding: .5rem 0;
         justify-content: unset;
     }
 
     .depoimento__cartao {
         box-sizing: border-box;
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
+        margin: 1.5rem auto;
         width: 350px;
         height: 170px;
         padding: 1.5rem 1rem;
